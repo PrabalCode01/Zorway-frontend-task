@@ -1,0 +1,81 @@
+
+/* Marksheet.css */
+
+.wrap2 {
+  background-color: aquamarine;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(4, 15, 4);
+  color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.student {
+  padding-left: 18px;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sem-marks {
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #160404;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.marks-body {
+  background-color: rgb(167, 237, 129);
+  margin: 2px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header {
+    font-size: 24px; 
+  }
+
+  .student {
+    font-size: 16px;
+  }
+
+  .sem-marks {
+    font-size: 16px; 
+    margin: 10px;
+  }
+
+  table {
+    font-size: 14px; 
+  }
+
+  th, td {
+    padding: 8px; 
+  }
+}

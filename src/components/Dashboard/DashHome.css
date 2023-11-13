@@ -1,0 +1,23 @@
+.active{
+    background-color: #1d4ed8;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 70px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2px;
+}

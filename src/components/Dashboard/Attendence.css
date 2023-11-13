@@ -1,0 +1,61 @@
+
+
+   /* Attendence.css */
+
+.attend {
+  margin: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: aquamarine;
+}
+
+.attend h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}
+
+.attend table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: rgb(167, 237, 129);
+  font-weight: bold;
+}
+
+.attend th, .attend td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.attend th {
+  background-color: #f2f2f2;
+}
+
+.attend td:nth-child(4) {
+  color: rgb(0, 13, 128);
+}
+
+.attend td:nth-child(5) {
+  color: #e74c3c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .attend table {
+    font-size: 14px; 
+  }
+
+  .attend th, .attend td {
+    padding: 8px; 
+  }
+
+  .attend td:nth-child(4),
+  .attend td:nth-child(5) {
+    font-size: 14px;
+  }
+}
