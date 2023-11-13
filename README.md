@@ -18,11 +18,11 @@ This project is a Students' Portal that includes essential features for managing
   Provides an option to log out.
 
 # Technologies Used:
-# React: 
+## React: 
    The project is built using the React library for building user interfaces.
-# Firebase Authentication: 
+## Firebase Authentication: 
    Firebase is used for user authentication services.
-# Responsive Design: 
+## Responsive Design: 
    The web pages are designed to be responsive, providing a seamless experience across different devices.
 
 
@@ -32,7 +32,7 @@ Run npm install to install the required dependencies.
 Set up Firebase authentication and update the configuration in the project.
 Run the application using npm start.
 
-# Then add the below document without any changes in Login Credentials:
+## Then add the below document without any changes in Login Credentials:
 
    {
   "email": tester@gmail.com,
